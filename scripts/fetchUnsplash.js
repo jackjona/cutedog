@@ -9,12 +9,11 @@ const fetchUnsplashImageUrls = async () => {
 
     /* Need to iterate through keywords to avoid cache trap */
     var keyword_index = 0
-    const keywords = ["nature", "car", "fire", "water", "earth", "tree", "people", "love", "flowers",
-                      "bike", "computer", "sports", "music", "technology", "city", "road", "baby"]
+    const keywords = ["dog","puppies"]
     
     write("[")
     const uniqueUrls = new Set()
-    var goalCount = 10000
+    var goalCount = 240
     while (uniqueUrls.size < goalCount) {
         const keyword = keywords[keyword_index]
         keyword_index = (keyword_index + 1) % keywords.length

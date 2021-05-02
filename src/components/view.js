@@ -5,7 +5,6 @@ import { InfiniteScroll } from "./infiniteScroll.js"
 import { FaCog } from "react-icons/fa"
 import theme from "../theme.yaml"
 import Grid from "./grid.js"
-import TrafficLight from "./trafficlight.js"
 
 /** View for "home" page with infinite scroll and fallback to pagination. */
 class View extends React.Component {
@@ -34,10 +33,6 @@ class View extends React.Component {
 
         return(
             <>
-
-                {/* Traffic Lights to toggle between Infinite Scroll and Pagination. */}
-                <TrafficLight onClick={g.toggle} green={g.useInfiniteScroll} pageContext={pageContext} />
-
                 {/* Infinite Scroll */}
                 <InfiniteScroll
                     throttle={150}
@@ -56,9 +51,9 @@ class View extends React.Component {
                     <div style={{ paddingTop: "40px"}}>
                         <h4>
                         <center>
-                            Congrats! You scrolled through all items starting from page
+                            Just like all good things, this must come to an end :(
                             {" "+pageContext.currentPage}.
-                            Go to page <Link to="/">one</Link>?
+                            Go <Link to="/">back</Link> to relieve this moment.
                         </center>
                         </h4>
                     </div>
@@ -78,7 +73,7 @@ class View extends React.Component {
                             {`.spinner { display: none !important; }`}
                         </style>
                         <Pagination paginationData={paginationData} />
-                        <h4><center>Infinite Scroll does not work without JavaScript.</center></h4>
+                        <h4><center>JavaScript Has Been Disabled. Please Allow JavaScript To Continue.</center></h4>
                     </noscript>
                 )}
 

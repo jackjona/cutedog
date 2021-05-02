@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Infinite Scroll`,
-    description: `Need infinite scroll or pagination in your Gatsby project? This starter is for you.`,
-    author: `baobabKoodaa`,
+    title: `Cute Dog Pictures `,
+    description: `Websites With A lot Of Cute Dog Pictures`,
+    author: `JackJona`,
   },
   plugins: [
     {
@@ -35,8 +35,8 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#FFFFFF`,
+        theme_color: `#000000`,
         display: `minimal-ui`,
         icon: `static/gatsby-icon.png`, // This path is relative to the root of the site.
       },

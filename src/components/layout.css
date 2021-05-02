@@ -1,10 +1,16 @@
+.boxhead .otherPage {
+  color: #FFFFFF;
+  text-decoration: none;
+}
 html {
+  text-decoration: none;
   font-family: Open Sans;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 body {
   margin: 0;
+  text-decoration: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -61,7 +67,8 @@ dfn {
   font-style: italic;
 }
 h1 {
-  font-size: 2em;
+  text-decoration: none;
+  font-size: 3em;
   margin: 0.67em 0;
 }
 mark {
@@ -221,6 +228,7 @@ img {
   margin-bottom: 1.45rem;
 }
 h1 {
+  text-decoration: none;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -234,10 +242,11 @@ h1 {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
+  font-size: 3rem;
   line-height: 1.1;
 }
 h2 {
+  text-decoration: none;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -255,6 +264,7 @@ h2 {
   line-height: 1.1;
 }
 h3 {
+  text-decoration: none;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -272,6 +282,7 @@ h3 {
   line-height: 1.1;
 }
 h4 {
+  text-decoration: none;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -306,6 +317,7 @@ h5 {
   line-height: 1.1;
 }
 h6 {
+  text-decoration: none;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -333,6 +345,7 @@ hgroup {
   margin-bottom: 1.45rem;
 }
 ul {
+  text-decoration: none;
   margin-left: 1.45rem;
   margin-right: 0;
   margin-top: 0;
@@ -618,6 +631,7 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;

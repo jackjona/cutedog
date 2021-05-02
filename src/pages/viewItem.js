@@ -17,16 +17,16 @@ const SecondPage = (props) => (
         console.log(url)
         return (
           <>
-            <SEO title="Second Page" />
+            <SEO title="Larger Picture" />
             <center>
               <br/><br/>
-
-              <p>This page exists to demonstrate behavior when you click back (infinite scroll state is maintained).</p>
+              <b><p>Here is a larger version of the cute dog picture for you to enjoy. </p></b>
+              <br></br>
 
               <img
                 src={url}
                 alt="Larger version"
-                title="Image from Unsplash"
+                title="Larger Cute Dog Picture"
                 style={{
                   maxWidth: "80vw",
                   maxHeight: "70vh"

@@ -1,3 +1,4 @@
+# Cute Dog
 <h1 align="center">
   Cute Dog Photos Website
 </h1>
@@ -14,6 +15,6 @@ This is website with photos of cute dogs implementing infinite scroll built on R
 - Traffic lights CSS graphics are modified from work by Azik Samarkandiy.
 - Loading spinner uses icon from FontAwesome.
 
-I would love to see what you build with this. You can [drop me a message](https://blog.baobab.fi/contact) or star this repo.
-# cutedog
-# cutedog
+I would love to see what you build with this. You can [drop me a message](https://jackjona.ga) or star this repo.
+
+

@@ -1,0 +1,23 @@
+# Base configs
+baseurl: "https:jackjona123.github.io/cutedog"
+image_fulls_loc: "/images/fulls"
+image_thumbs_loc: "/images/thumbs"
+google_analytics: "UA-186968818-7"
+
+# UI configs
+title: "Cute Dog Photos by Jack Jona"
+subtitle: "See the world through my eyes!"
+author: "Jack Jona"
+header:
+ title: "Cute Dog Photos"
+ subtitle: "by Jack Jona"
+footer:
+ name: "H"
+ bio: ""
+ github: ":)"
+web_design: ""
+social_urls:
+  facebook: "https://www.facebook.com/jackjona123"
+  twitter: "https://www.twitter.com/jackjona123"
+  instagram: "https://www.instagram.com/jackjona123"
+  github: "https://www.github.com/jackjona123"

@@ -2,7 +2,6 @@
   Cute Dog Photos Website
 </h1>
 
-
 ## Description
 This is website with photos of cute dogs implementing infinite scroll built on React and Gatsby.
 

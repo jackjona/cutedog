@@ -1011,7 +1011,7 @@
   dependencies:
     "sparkles" "^1.0.0"
 
-"gm@^1.14.2":
+"gm@^1.14.2", "gm@^1.23.1":
   "integrity" "sha1-Lt7rlYCE0PjqeYjl2ZWxx9/BR3c="
   "resolved" "https://registry.npmjs.org/gm/-/gm-1.23.1.tgz"
   "version" "1.23.1"
@@ -1062,7 +1062,7 @@
     "v8flags" "^3.2.0"
     "yargs" "^7.1.0"
 
-"gulp-gm@~0.0.3":
+"gulp-gm@^0.0.9", "gulp-gm@~0.0.3":
   "integrity" "sha512-T1jHDCnR3TmAABIif5ooFXonaDHdovJJRdKL9cQ8gdnMwunrW33HFqDr7E0zxw+lN0fFhBj/cp1VCeHcL9BPmg=="
   "resolved" "https://registry.npmjs.org/gulp-gm/-/gulp-gm-0.0.9.tgz"
   "version" "0.0.9"

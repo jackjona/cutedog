@@ -1,5 +1,5 @@
 # Base configs
-baseurl: "https://cutedog.jackjona.live"
+baseurl: "https://dogv2.jackjona.live"
 image_fulls_loc: "/images/fulls"
 image_thumbs_loc: "/images/thumbs"
 google_analytics: "UA-186968818-7"

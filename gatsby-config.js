@@ -5,7 +5,7 @@ module.exports = {
     author: "Jack Jona",
     social: [
       {
-        name: "Source",
+        name: "Instagram",
         url: "https://www.instagram.com/jackjona123/",
       },
       {
